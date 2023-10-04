@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.flex-container {
+  @apply flex flex-col flex-wrap p-8 justify-center items-center gap-8  md:flex-row;
+}
+
+.card {
+  @apply p-8 border-t-4 shadow-xl h-60 relative rounded-lg;
+}
+
+.down {
+  @apply lg:translate-y-[50%];
+}
